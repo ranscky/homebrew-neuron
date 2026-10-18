@@ -15,20 +15,20 @@ class Neuron < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/ranscky/neuron/releases/download/v0.1.0/neuron_0.1.0_darwin_arm64.tar.gz"
-      sha256 "af11f88e6077af6ba0cd6f7b3259441a1c2cd244c5b0fcbdca0f29c863a3cba5"
+      sha256 "386e6b2a534a44d9ed73ec0de3acf399bb3e71c7b40e704fe219ff51ee9b5522"
     else
       url "https://github.com/ranscky/neuron/releases/download/v0.1.0/neuron_0.1.0_darwin_amd64.tar.gz"
-      sha256 "dcb099db5936c0ffe6ef6a028eaa3b99bea0899f46991a31585e2c647bb8de94"
+      sha256 "852d5f371e57d69a51c4bc82e7a4853d1276740e4bf656f1aa5cdd4a770b3fd1"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/ranscky/neuron/releases/download/v0.1.0/neuron_0.1.0_linux_arm64.tar.gz"
-      sha256 "8d1922fe5a53c37252fb948218fee095a32d36ea3b270ec29592de9975a4e6b9"
+      sha256 "9172b42365f0e2936fc43bb07731712399432227af7b6b78ead0097d8c55a570"
     else
       url "https://github.com/ranscky/neuron/releases/download/v0.1.0/neuron_0.1.0_linux_amd64.tar.gz"
-      sha256 "5d5b9035b022dab562b1576e1f067578790f00860ec9ffcf6efff63233d3a3ec"
+      sha256 "829bb13a0ef9b81af41e50ddf0057ffceaa286c6841f65f482d7354fa6300c74"
     end
   end
 
